@@ -1,0 +1,33 @@
+.cart-nav{
+    position:fixed;
+    right: 0;
+    width: 100px;
+    background:white;
+    border: 2px solid #7bb57c;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    justify-content:center;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cart-nav .icon {
+    color: #7bb57c;
+  }
+  .cart-nav .icon i {
+    font-size: 20px;
+  }
+  .cart-nav .icon span {
+    font-weight: 500;
+  }
+  .cart-nav .item-count {
+    font-size: 15px;
+    height: 23px;
+    width: 23px;
+    color:white;
+    background: #7bb57c;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+  }

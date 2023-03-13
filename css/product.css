@@ -1,0 +1,116 @@
+.title_one {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.title_two {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+/*Лідери продажу*/
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.product-card button {
+    color: #848482;
+    border: 2px solid #7bb57c;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.product-card button:hover {
+    background-color: #7bb57c;
+    color: white;
+}
+
+/*Основні  карточки*/
+.header-banner_three {
+    text-align: center;
+}
+
+.fave_finds {
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.best_designer {
+    font-size: 18px;
+}
+
+
+.product-container_one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card_one {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-card_one img {
+    width: 100%;
+}
+
+.product-card_one h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.product-card_one p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.product-card_one button {
+    color: #848482;
+    border: 2px solid #7bb57c;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.product-card_one button:hover {
+    background-color: #7bb57c;
+    color: white;
+}

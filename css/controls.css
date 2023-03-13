@@ -1,0 +1,47 @@
+.header-button {
+    text-decoration: none;
+    color:#848482;
+    border: 2px solid #7bb57c;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+   }
+
+.header-button:hover {
+    background-color: #7bb57c;
+    color:white;
+}
+
+.banner-button {
+    text-decoration: none;
+    color:white;
+    background-color:#7bb57c;
+    border: 2px solid #7bb57c;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.banner-button:hover {
+    background-color:black;
+    border:black;
+    color:white;
+}
+
+.banner-button_two {
+    text-decoration: none;
+    color:white;
+    background-color:#7bb57c;
+    border: 2px solid #7bb57c;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}  
+.banner-button_two:hover{
+    background-color:black;
+    border:black;
+    color:white;
+}   
